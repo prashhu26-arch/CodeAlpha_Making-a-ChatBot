@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<!-- saved from url=(0098)file:///C:/Users/VICTUS/OneDrive/%EB%AC%B8%EC%84%9C/leetcode-pro-max/CollegeHelpChatbot/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Help Chatbot</title>
+    <link href="./College Help Chatbot app_files/css2" rel="stylesheet">
+    <link rel="stylesheet" href="./College Help Chatbot app_files/all.min.css">
+    <link rel="stylesheet" href="./College Help Chatbot app_files/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar glass">
+        <div class="logo">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <span>UniBot</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="file:///C:/Users/VICTUS/OneDrive/%EB%AC%B8%EC%84%9C/leetcode-pro-max/CollegeHelpChatbot/index.html#home">Home</a></li>
+            <li><a href="file:///C:/Users/VICTUS/OneDrive/%EB%AC%B8%EC%84%9C/leetcode-pro-max/CollegeHelpChatbot/index.html#about">About</a></li>
+            <li><a href="file:///C:/Users/VICTUS/OneDrive/%EB%AC%B8%EC%84%9C/leetcode-pro-max/CollegeHelpChatbot/index.html#features">Features</a></li>
+            <li><a href="file:///C:/Users/VICTUS/OneDrive/%EB%AC%B8%EC%84%9C/leetcode-pro-max/CollegeHelpChatbot/index.html#faq">FAQ</a></li>
+        </ul>
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Dark Mode">
+            <i class="fa-solid fa-moon"></i>
+        </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Your <span class="highlight">College AI Assistant</span></h1>
+            <p>Get instant answers about courses, timings, fees, and campus life.</p>
+            <a href="file:///C:/Users/VICTUS/OneDrive/%EB%AC%B8%EC%84%9C/leetcode-pro-max/CollegeHelpChatbot/index.html#chatbot" class="btn primary-btn">Try Chatbot Now</a>
+        </div>
+    </section>
+
+    <!-- Chatbot Section -->
+    <section id="chatbot" class="chatbot-section">
+        <div class="chatbot-container glass">
+            <div class="chat-header">
+                <i class="fa-solid fa-robot"></i>
+                <h2>UniBot Assistant</h2>
+                <div class="status-indicator"></div>
+            </div>
+            
+            <div class="quick-suggestions">
+                <button class="suggestion-btn">courses</button>
+                <button class="suggestion-btn">fees</button>
+                <button class="suggestion-btn">hostel</button>
+                <button class="suggestion-btn">library</button>
+            </div>
+
+            <div class="chat-window" id="chat-window">
+                <div class="message bot-message">
+                    <div class="msg-bubble">Hi! Welcome to College Help Chatbot. How can I help you today?</div>
+                </div>
+            </div>
+            
+            <div class="chat-input-area">
+                <input type="text" id="user-input" placeholder="Type your message here..." autocomplete="off">
+                <button id="send-btn"><i class="fa-solid fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="section-container">
+            <h2>About UniBot</h2>
+            <p>UniBot is an AI-powered virtual assistant designed specifically for students and prospective applicants. It helps you navigate campus life by providing immediate answers to your most pressing questions.</p>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features-section">
+        <div class="section-container">
+            <h2>Why Use UniBot?</h2>
+            <div class="features-grid">
+                <div class="feature-card glass">
+                    <i class="fa-solid fa-bolt"></i>
+                    <h3>Instant Replies</h3>
+                    <p>Get your questions answered in milliseconds, no waiting required.</p>
+                </div>
+                <div class="feature-card glass">
+                    <i class="fa-solid fa-clock"></i>
+                    <h3>24/7 Availability</h3>
+                    <p>Always online to help you, whether it's early morning or late night.</p>
+                </div>
+                <div class="feature-card glass">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <h3>Accurate Info</h3>
+                    <p>Directly sourced from the college administration for up-to-date facts.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Support Services Section -->
+    <section id="services" class="services-section">
+        <div class="section-container">
+            <h2>Student Support Services</h2>
+            <div class="services-grid">
+                <div class="service-card glass">
+                    <h3>Library</h3>
+                    <p>Access thousands of books and digital resources.</p>
+                </div>
+                <div class="service-card glass">
+                    <h3>Counseling</h3>
+                    <p>Mental health support and academic guidance.</p>
+                </div>
+                <div class="service-card glass">
+                    <h3>Career Center</h3>
+                    <p>Internship opportunities and placement support.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq-section">
+        <div class="section-container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-list">
+                <div class="faq-item glass">
+                    <h4>Do I need to log in to use the chatbot?</h4>
+                    <p>No, UniBot is free and accessible without any account.</p>
+                </div>
+                <div class="faq-item glass">
+                    <h4>Can it help with course registration?</h4>
+                    <p>It can guide you to the correct portals and deadlines, but registration requires logging into the student portal.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Floating Chatbot Icon -->
+    <div id="floating-icon" class="floating-icon">
+        <i class="fa-solid fa-message"></i>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content glass">
+            <div class="footer-logo">
+                <i class="fa-solid fa-graduation-cap"></i> UniBot
+            </div>
+            <p>Contact: collegehelp@gmail.com</p>
+            <p>© 2026 College Help Chatbot. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="./College Help Chatbot app_files/script.js"></script>
+
+
+</body></html>
